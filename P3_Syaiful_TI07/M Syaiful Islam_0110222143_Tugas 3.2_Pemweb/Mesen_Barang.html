@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+
+<body>
+    <nav>
+        <table style="border: 2px solid black; background-color: white;" align="center">
+            <tr>
+                <td><b style="margin-right: 20px; margin-left: 20px;">Home</b></td>
+                <td>|</td>
+                <td><b style="margin-left: 80px; margin-right: 20px;">Generate Link</b></td>
+                <td>|</td>
+                <td><b style="margin-left: 80px; margin-right: 20px;">Transaction</b></td>
+                <td>|</td>
+                <td><b style="margin-left: 80px; margin-right: 20px;">Pulicy</b></td>
+                <td>|</td>
+                <td><b style="margin-left: 80px; margin-right: 100px;">Log Out</b></td>
+            </tr>
+        </table>
+    </nav>
+    <br>
+    <br>
+    <div style="float: left; margin-left: 125px;">
+        <img src="aset/a.jpg" style="border: 2px solid black;" alt="alienware" width="auto" height="auto"><br>
+        <input type="button" value="Upload Picture">
+    </div>
+    <div style="float: right; margin-right: 370px;">
+        <table>
+            <tr>
+                <td><label for="title">Title Here : </label></td>
+                <td><input type="text" name="title" id="title"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="description">
+                        <p style="margin-top: -67px;">Description : </p>
+                    </label></td>
+                <td><textarea name="description" id="description" cols="30" rows="8"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="number">Account Number : </label></td>
+                <td><input type="text" name="number" id="number"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="bank">Bank : </label></td>
+                <td>
+                    <select>
+                        <option>BNI</option>
+                        <option>BRI</option>
+                        <option>BSI</option>
+                        <option>BCA</option>
+                        <option>BTN</option>
+                        <option>BJB</option>
+                        <option>MANDIRI</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="holder">Account Holder : </label></td>
+                <td><input type="text" name="holder" id="holder"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="4"><label for="transaction">
+                        <p style="margin-top: -45px;">Transaction : </p>
+                    </label></td>
+                <td><input type="number" value="1" id="transaction"></td>
+            </tr>
+            <tr>
+                <td><small>*if the transaction is for 3 person, choose 3 from the drop-down list</small></td>
+            </tr>
+            <tr>
+                <td style="color: green;"><input type="checkbox">Send to Mobile Phone</td>
+            </tr>
+            <tr>
+                <td style="color: green;"><input type="checkbox">Send to E-mail</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Send to Mobile Phone : </label></td>
+                <td><input type="text" id="mobile"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Send to E-mail : </label></td>
+                <td><input type="text" id="mail"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="Hasil_Mesen_Barang.html"><input type="button" value="Generate Nabr Link"
+                            style="background-color: green; color: white;"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
