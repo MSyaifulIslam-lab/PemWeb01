@@ -1,0 +1,78 @@
+body {
+    background-color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+#header {
+    text-align: center;
+}
+
+h1 {
+    color: #4FA095;
+}
+
+blockquote {
+    background-color: beige;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul li {
+    float: left;
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.gambar {
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.koleksi {
+    background-color: lightblue;
+}
+
+.koleksi img {
+    width: 23%;
+    padding-left: 18px;
+}
+
+table,
+th,
+td {
+    border: black solid 1px;
+    padding: 10px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+tbody {
+    color: black;
+}
+
+.promo {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    list-style: none;
+}
+
+.promo ol li {
+    float: left;
+    padding: 10px;
+}

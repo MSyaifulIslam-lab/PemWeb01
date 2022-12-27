@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      function hitung_penjumlahan() {
+        let kebaya = document.getElementById("kebaya").value;
+        let merah = document.getElementById("merah").value;
+        let hasil = parseInt(kebaya) + parseInt(merah);
+        document.getElementById("hasil").value = hasil;
+      }
+    </script>
+    <title>Praktikum 9.4</title>
+  </head>
+  <body>
+    <form>
+      <input type="number" id="kebaya" onchange="hitung_penjumlahan()" />
+      <br />
+      <span>+</span>
+      <br />
+      <input type="number" id="merah" onchange="hitung_penjumlahan()" />
+      <br />
+      <span>=</span>
+      <br />
+      <input type="number" id="hasil" />
+    </form>
+  </body>
+</html>
